@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+body {
+  height:100%;
+  width:100%;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  background: #000 url(../IMG/weatherappbackground.jpg) no-repeat center center/cover;
+  height: 100vh;
+  
+  background-attachment: fixed;
+}
+
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 65px;
+}
+
+p {
+  text-align: center;
+  margin: auto 0;
+  font-size: 35px;
+}
+
+form {
+  padding: 20px;
+}
+
+.search-bar {
+  border-radius: 12px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+a:hover {
+  cursor: pointer;
+  color: purple;
+}
+
+.todays-weather {
+  list-style: none;
+  font-size: 25px;
+}
+
+.forecast-day {
+  font-size: 20px;
+}
+
+.temp {
+  font-size: 35px;
+}
+
+.forecast-day,
+.temp {
+  color: white;
+  text-align: center;
+}
+
+.weather-icon {
+  text-align: center;
+  font-size: 50px;
+}
+
+.box-weather-conditions {
+  background-color: rgba(255, 255, 255, 0.3);
+  max-width: 100%;
+  height: 150px;
+  border-radius:5px;
+  line-height:50px;
+}
+
+.box-forecast {
+  background-color: rgba(255, 255, 255, 0.3);
+  min-height: 180px;
+}
+
+.future-forecast {
+  padding: 20px;
+}
+
+
+.forecast-day,
+.temp,
+#city,
+h3,
+#city-condition,
+#temp,
+.forecast-title,
+.todays-weather{
+/*Added 2 properties;
+  font-weight:600;
+  text-shadow:
+		-1px -1px 0 #2B3F58,
+		1px -1px 0 #2B3F58,
+		-1px 1px 0 #2B3F58,
+		1px 1px 0 #2B3F58;  
+  When you have white text on a light background it can be too hard to read depending on the screen. 
+  Giving the text an outline(shadow) allows there to be contrast making the text almost always readable.
+  https://www.w3schools.com/cssref/css3_pr_text-shadow.asp
+
+  Making the font bold just allows more distance between the text and outline.
+  https://www.w3schools.com/cssref/pr_font_weight.asp
+
+  I selected #2B3F58 as the color because its already a color used on the page. Used a color from the top of the mountain below the word forecast.
+  The below plugin I have used for years and I can't even count the number of times it has been invaluable. If you are already aware of this plugin
+  or are using something similar than ignore the rest of this. The plugin allows you to always having a color selector on your browser toolbar to 
+  get the hex or rgb of a color. It also has the eye dropper which is what I use the most. The dropper allows you to mouse over any color on any 
+  website and whether its css or a picture it will give you the hex of that color. You have to be using chrome or firefox to use the plugin but
+  I would recommend using chrome to test all websites and then in final testing you use all major browsers since different browsers can interpret 
+  CSS/JS differently.
+  https://www.colorzilla.com/chrome/
+  https://www.colorzilla.com/firefox/
+*/
+  font-weight:600;
+  text-shadow:
+		-1px -1px 0 #2B3F58,
+		1px -1px 0 #2B3F58,
+		-1px 1px 0 #2B3F58,
+		1px 1px 0 #2B3F58;  
+}
